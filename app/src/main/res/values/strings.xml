@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navigation Component</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="main_fragment_btn_text">Main Fragment</string>
+    <string name="fragment_two_btn_text">Fragment Two</string>
+    <string name="fragment_three_btn_text">Fragment Three</string>
+    <string name="fragment_four_btn_text">Fragment Four</string>
+</resources>

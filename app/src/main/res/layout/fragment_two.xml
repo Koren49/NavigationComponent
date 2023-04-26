@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555552"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
+
+
+    <TextView
+        android:id="@+id/fragment_two_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_two_btn_text"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/title_text_size"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/fragment_four_Btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_four_btn_text"
+        android:background="@color/teal_700"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/main_fragment_btn"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    <Button
+        android:id="@+id/main_fragment_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/main_fragment_btn_text"
+        android:background="@color/teal_700"
+        app:layout_constraintTop_toBottomOf="@id/fragment_four_Btn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
