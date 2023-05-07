@@ -8,18 +8,18 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.Navigation
 import com.example.navigationcomponent.databinding.ActivityMainBinding
-import com.example.navigationcomponent.databinding.FragmentMainBinding
+import com.example.navigationcomponent.databinding.FragmentContainerBinding
 
-class MainFragment : androidx.fragment.app.Fragment(){
+class MainFragment : Fragment(){
 
-    private lateinit var binding: FragmentMainBinding
+    private lateinit var binding: FragmentContainerBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentMainBinding.inflate(inflater, container, false)
+        binding = FragmentContainerBinding.inflate(inflater, container, false)
         return binding.root
     }
 
